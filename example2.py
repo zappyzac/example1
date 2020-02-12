@@ -13,3 +13,5 @@ print (np.mean(m))
 
 sample = [1, 1, 1, 2, 3, 4, 5]
 stats.mode(sample)
+
+print (stats.mode(sample).count)
